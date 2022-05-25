@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no"/>
+    <title>Document</title>
+    <link href="./assets/css/stylePrestation.css" rel="stylesheet" type="text/css">
+    <link href="./assets/bootstrap/bootstrap5.min.css" rel="stylesheet" type="text/css">
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+
+    <div class="burger animeOpac">
+        <div class="position-relative d-flex justify-content-center align-items-center w-100 h-100 flex-column spanBurger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+      <!-- AffichageMenuBurger-->
+      <div id="menuBurgerDesktop" class="position-fixed row m-0">
+        <div id="burgerSectionGauche" class="bg-white col-12 col-md-6 d-flex flex-column justify-content-between pe-0">
+            <div class="childBurger">
+                <nav class="d-flex flex-column">
+                    <div class="unit w-100">
+                        <div class="digits text-white w-100 position-relative">
+                            <div class="cd__digit w-100 ancreBurger d-flex text-dark">
+                                <div>
+                                    <i class="fas fa-long-arrow-alt-right arrowBurger"></i>
+                                </div>
+                                <a class=" position-relative  text-dark" href="./">Accueil</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="unit w-100">
+                        <div class="digits text-white w-100 position-relative">
+                            <div class="cd__digit w-100 ancreBurger d-flex text-dark" >
+                                <i class="fas fa-long-arrow-alt-right arrowBurger"></i>
+                                <a class=" text-dark lienBurger">Contact</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="unit w-100">
+                        <div class="digits text-white w-100 position-relative">
+                            <div class="cd__digit w-100 ancreBurger d-flex text-dark" >
+                                <div><i class="fas fa-long-arrow-alt-right arrowBurger"></i></div>
+                                <a class=" text-dark lienBurger" >Prestations</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="unit w-100">
+                        <div class="digits text-white w-100 position-relative">
+                            <div class="cd__digit w-100 ancreBurger d-flex text-dark" >
+                                <div><i class="fas fa-long-arrow-alt-right arrowBurger"></i></div>
+                                <a class="  text-dark lienBurger" >Portefolio</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="unit w-100">
+                        <div class="digits text-white w-100 position-relative">
+                            <div class="cd__digit w-100 ancreBurger d-flex text-dark" >
+                                <div><i class="fas fa-long-arrow-alt-right arrowBurger"></i></div>
+                                <a class=" text-dark lienBurger" href="#">Histoire</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="d-flex justify-content-between" id="adresseBurger">
+                <div class="d-flex justify-content-end flex-column fw-bold">
+                    <div class="unit w-100">
+                        <div class="digits text-dark w-100 position-relative digitAdresse margeDigit">
+                            <div class="cd__digit w-100 " >
+                                <p class="digitContact">06 52 57 65 67</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="unit w-100">
+                        <div class="digits text-dark w-100 position-relative digitAdresse">
+                            <div class="cd__digit w-100 ">
+                                <p class="digitContact">contact.paradoxe.fr</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-column reseauxBurger">
+                    <div class="unit w-100">
+                        <div class="digitsReseau text-dark w-100 m-0 position-relative">
+                            <div class="cd__digit w-100 ">
+                                <a class="lienReseau text-dark" href="#" >
+                                    <i class="fab fa-twitter reseauAccueil"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="unit w-100 ">
+                        <div class="digitsReseau text-dark w-100 position-relative">
+                            <div class="cd__digit w-100 ">
+                                <a class="lienReseau text-dark"> <i class="fab fa-instagram reseauAccueil"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="unit w-100">
+                        <div class="digitsReseau text-dark w-100 position-relative ">
+                            <div class="cd__digit w-100 ">
+                                <a class="lienReseau text-dark"><i class="fab fa-linkedin-in reseauAccueil"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="burgerSectionDroite" class="p-0 col-6 d-md-flex flex-column d-none">
+            
+                <div class="w-100  d-flex align-items-end">
+                    <h5 class="fw-bold titreSectionDroite text-white text-center w-100">Agence <br> Paradoxe.</h5>
+                </div>
+                <div class="d-flex justify-content-end align-items-center flex-column text-white">
+                    <p class="m-0">Agence Paradoxe &copy; 2022 - Agence web sur Montauban et Toulouse </p>
+                    <div class="bg-white"></div>
+                    <div class="mb-1">
+                        <a class="text-white" href="">CGU |</a>
+                        <a class="text-white" href="">Mention Légales |</a>
+                        <a class="text-white" href="">Politique-de-confidentialité</a>
+                    </div>
+                </div>
+           
+        </div>
+    </div>
+    <main>
+        <section class="d-none d-lg-flex">
+            <div class="slideContainer1">
+                <div class="first box ">
+                   
+                </div>
+                <div class="box d-flex align-items-center justify-content-end position-relative">
+
+                   <h1 class="titrePrincipale margTitle">Nos <br> Presta</h1>
+                    <img class="imgPresta" src="./assets/img/developement.png">
+                    <img class="imgPresta" src="./assets/img/conception-de-maquette.png">
+                    <img class="imgPresta" src="./assets/img/optimisation_1.png">
+                </div>
+                <div class="box">
+                    
+                </div>
+                <div class="box d-flex flex-column justify-content-center">
+                    <h3 class="fw-bold">Site E-commerce</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda illo dolorem consequatur, ad quo odio aspernatur voluptates enim aliquam ratione! Enim ipsam inventore dolor assumenda ipsum soluta, necessitatibus quidem nobis.
+                    Dolores quae magnam perferendis tempore iste necessitatibus impedit vitae assumenda eaque, deleniti maxime culpa dolore repellendus illum sunt eligendi alias vel, nostrum delectus. Eaque veniam, tempore ipsam quidem omnis reiciendis.
+                </div>
+                <div class="box">
+                   
+                </div>
+                <div class="box d-flex flex-column justify-content-center"  >
+                    <h3 class="fw-bold">Refonte</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda illo dolorem consequatur, ad quo odio aspernatur voluptates enim aliquam ratione! Enim ipsam inventore dolor assumenda ipsum soluta, necessitatibus quidem nobis.
+                    Dolores quae magnam perferendis tempore iste necessitatibus impedit vitae assumenda eaque, deleniti maxime culpa dolore repellendus illum sunt eligendi alias vel, nostrum delectus. Eaque veniam, tempore ipsam quidem omnis reiciendis.
+                </div>
+              
+                <div class="box">
+                   
+                </div>
+                
+                
+                <div class="last box d-flex align-items-center justify-content-end position-relative">
+
+                    <h1 class="titrePrincipale margTitle">Nos <br> Presta</h1>
+                     <img class="imgPresta" src="./assets/img/developement.png">
+                     <img class="imgPresta" src="./assets/img/conception-de-maquette.png">
+                     <img class="imgPresta" src="./assets/img/optimisation_1.png">
+                 </div>
+            </div>
+            <div class="slideContainer2">
+                <div class="box2 position-relative first" >
+                    <div class=" d-flex align-items-end justify-content-start h-50 ">
+                        <h1 class="titrePrincipale margeTitle">tions.</h1>
+                    </div>
+                    <div class="h-50 d-flex align-items-end justify-content-center paraPresta">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut aliquid aperiam animi voluptatem maxime, hic at accusamus repudiandae harum laborum officia? Quae aspernatur, ex placeat nesciunt perferendis laborum ipsum rem.
+                        Amet aliquam nisi hic expedita totam aspernatur alias ratione est rem nobis, nulla velit doloremque corporis veniam eligendi, minima soluta dolore! Quod ea quidem minus ad maiores officia facilis corrupti?
+                        Libero quaerat commodi reprehenderit repudiandae, quis fugit in reiciendis odit error non! Odit quam minus nostrum explicabo eos laborum, magni iusto incidunt provident distinctio. Quaerat hic commodi rerum similique blanditiis.</p>
+                    </div>
+                    <img class="imgPresta" src="./assets/img/creation-de-sites-web_4.png">
+                    <img class="imgPresta" src="./assets/img/vecteur_2.png">
+                    <img class="imgPresta" src="./assets/img/online-shop_2.png">
+                </div>
+                
+                <div class="box2 d-flex flex-column justify-content-center ">
+                    <h3 class="fw-bold">Optimisation</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda illo dolorem consequatur, ad quo odio aspernatur voluptates enim aliquam ratione! Enim ipsam inventore dolor assumenda ipsum soluta, necessitatibus quidem nobis.
+                    Dolores quae magnam perferendis tempore iste necessitatibus impedit vitae assumenda eaque, deleniti maxime culpa dolore repellendus illum sunt eligendi alias vel, nostrum delectus. Eaque veniam, tempore ipsam quidem omnis reiciendis.
+                   
+               </p>
+                </div>
+                <div class="box2">
+                    
+                </div>
+                <div class="box2 d-flex flex-column justify-content-center ">
+                    <h3 class="fw-bold">Graphisme</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda illo dolorem consequatur, ad quo odio aspernatur voluptates enim aliquam ratione! Enim ipsam inventore dolor assumenda ipsum soluta, necessitatibus quidem nobis.
+                    Dolores quae magnam perferendis tempore iste necessitatibus impedit vitae assumenda eaque, deleniti maxime culpa dolore repellendus illum sunt eligendi alias vel, nostrum delectus. Eaque veniam, tempore ipsam quidem omnis reiciendis.
+                   
+               </p>
+                </div>
+                <div class="box2">
+                   
+                </div>
+                <div class="box2 d-flex flex-column justify-content-center ">
+                    <h3 class="fw-bold">Site vitrine</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda illo dolorem consequatur, ad quo odio aspernatur voluptates enim aliquam ratione! Enim ipsam inventore dolor assumenda ipsum soluta, necessitatibus quidem nobis.
+                    Dolores quae magnam perferendis tempore iste necessitatibus impedit vitae assumenda eaque, deleniti maxime culpa dolore repellendus illum sunt eligendi alias vel, nostrum delectus. Eaque veniam, tempore ipsam quidem omnis reiciendis.
+                   
+               </p>
+                </div>
+                <div class="box2 position-relative" >
+                    <div class=" d-flex align-items-end justify-content-start h-50 ">
+                        <h1 class="titrePrincipale margeTitle">tions.</h1>
+                    </div>
+                    <div class="h-50 d-flex align-items-end justify-content-center paraPresta">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut aliquid aperiam animi voluptatem maxime, hic at accusamus repudiandae harum laborum officia? Quae aspernatur, ex placeat nesciunt perferendis laborum ipsum rem.
+                        Amet aliquam nisi hic expedita totam aspernatur alias ratione est rem nobis, nulla velit doloremque corporis veniam eligendi, minima soluta dolore! Quod ea quidem minus ad maiores officia facilis corrupti?
+                        Libero quaerat commodi reprehenderit repudiandae, quis fugit in reiciendis odit error non! Odit quam minus nostrum explicabo eos laborum, magni iusto incidunt provident distinctio. Quaerat hic commodi rerum similique blanditiis.</p>
+                    </div>
+                    <img class="imgPresta" src="./assets/img/creation-de-sites-web_4.png">
+                    <img class="imgPresta" src="./assets/img/vecteur_2.png">
+                    <img class="imgPresta" src="./assets/img/online-shop_2.png">
+                </div>
+                <div class="last box2 d-flex flex-column justify-content-center ">
+                    <h3 class="fw-bold">Optimisation</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda illo dolorem consequatur, ad quo odio aspernatur voluptates enim aliquam ratione! Enim ipsam inventore dolor assumenda ipsum soluta, necessitatibus quidem nobis.
+                    Dolores quae magnam perferendis tempore iste necessitatibus impedit vitae assumenda eaque, deleniti maxime culpa dolore repellendus illum sunt eligendi alias vel, nostrum delectus. Eaque veniam, tempore ipsam quidem omnis reiciendis.
+                   
+               </p>
+                </div>
+            </div>
+        </section>
+
+       
+        <section class="d-block d-lg-none mobileSec bg-dark">
+            
+            <div class=" d-flex flex-column    h-100 justify-content-between position-relative" style="padding:18vmin 0 30vmin 0">
+                <div class="d-flex flex-column align-items-center">
+                    <h1 class="text-white">Nos Prestations</h1>
+                    <div class="ligne"></div>
+                </div>
+                
+                <div id="teste"  class="d-flex parentBlock">
+                    <div class="autre">
+                        <div class="blockMob">
+
+                            <div class="h-100 affiche">
+                                <div class="text-end">
+                                    <span class="plus" style="color: rgb(0, 0, 0);font-size: 15vmin;margin-right: 6%;margin-top:4%;display: inline-block;line-height: 80%;">+</span>
+                                </div>
+                                
+                                    
+                               
+                                    
+                               
+                                <div class="propriete flex-column justify-content-center align-items-center h-75">
+                                    <img class="w-50" src="./assets/img/creation-de-sites-web_4.png">
+                                    <span style="margin-top: 8%;font-size: 8vmin;font-weight: bold;">Graphisme</span>
+                                </div>
+
+                                <div class=" flex-column align-items-center h-100 affichProp">
+                                    
+                                    <img style="width: 30vmin;" src="./assets/img/creation-de-sites-web_4.png">
+                                    <div style="margin-top:15vmin;padding: 0 7vmin;">
+                                        <h3>Graphisme</h3>
+                                        <div class="bg-dark" style="margin-top: 5vmin;height: 1vmin;width: 25vmin;" ></div>
+                                        <p style="margin: 5vmin 0 8vmin 0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo, mollitia autem! Sint doloremque similique impedit vel asperiores corrupti sunt, neque, illo nam ratione omnis odio sit delectus totam facere perferendis.
+                                        Voluptate facilis autem mollitia quasi cum accusamus. Tempora, nostrum reiciendis.</p>
+                                        <a style="padding: 2vmin 4vmin;background-color: white;font-weight: bold;border-radius: 2vmin;box-shadow: 1vmin 1vmin 0.5vmin #222;">Contactez-nous</a>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                          
+                          
+                           
+                        </div>
+                        <div class="blockMob">
+                            <div class="h-100 affiche">
+                            <div class="text-end">
+                                <span class="plus" style="color: rgb(0, 0, 0);font-size: 15vmin;margin-right: 6%;margin-top:4%;display: inline-block;line-height: 80%;">+</span>
+                            </div>
+                            
+                                
+                           
+                                
+                           
+                            <div class="propriete flex-column justify-content-center align-items-center h-75">
+                                <img class="w-50" src="./assets/img/creation-de-sites-web_4.png">
+                                <span style="margin-top: 8%;font-size: 8vmin;font-weight: bold;">Graphisme</span>
+                            </div>
+
+
+                            <div class=" flex-column align-items-center h-100 affichProp">
+                                    
+                                <img style="width: 30vmin;" src="./assets/img/creation-de-sites-web_4.png">
+                                <div style="margin-top:15vmin;padding: 0 7vmin;">
+                                    <h3>Graphisme</h3>
+                                    <div class="bg-dark" style="margin-top: 5vmin;height: 1vmin;width: 25vmin;" ></div>
+                                    <p style="margin: 5vmin 0 8vmin 0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo, mollitia autem! Sint doloremque similique impedit vel asperiores corrupti sunt, neque, illo nam ratione omnis odio sit delectus totam facere perferendis.
+                                    Voluptate facilis autem mollitia quasi cum accusamus. Tempora, nostrum reiciendis.</p>
+                                    <a style="padding: 2vmin 4vmin;background-color: white;font-weight: bold;border-radius: 2vmin;box-shadow: 1vmin 1vmin 0.5vmin #222;">Contactez-nous</a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                           
+                        </div>
+                        <div class="blockMob">
+                            <div class="h-100 affiche">
+                            <div class="text-end">
+                                <span class="plus" style="color: rgb(0, 0, 0);font-size: 15vmin;margin-right: 6%;margin-top:4%;display: inline-block;line-height: 80%;">+</span>
+                            </div>
+                            
+                                
+                           
+                                
+                           
+                            <div class="propriete flex-column justify-content-center align-items-center h-75">
+                                <img class="w-50" src="./assets/img/creation-de-sites-web_4.png">
+                                <span style="margin-top: 8%;font-size: 8vmin;font-weight: bold;">Graphisme</span>
+                            </div>
+
+
+                            <div class=" flex-column align-items-center h-100 affichProp">
+                                    
+                                <img style="width: 30vmin;" src="./assets/img/creation-de-sites-web_4.png">
+                                <div style="margin-top:15vmin;padding: 0 7vmin;">
+                                    <h3>Graphisme</h3>
+                                    <div class="bg-dark" style="margin-top: 5vmin;height: 1vmin;width: 25vmin;" ></div>
+                                    <p style="margin: 5vmin 0 8vmin 0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo, mollitia autem! Sint doloremque similique impedit vel asperiores corrupti sunt, neque, illo nam ratione omnis odio sit delectus totam facere perferendis.
+                                    Voluptate facilis autem mollitia quasi cum accusamus. Tempora, nostrum reiciendis.</p>
+                                    <a style="padding: 2vmin 4vmin;background-color: white;font-weight: bold;border-radius: 2vmin;box-shadow: 1vmin 1vmin 0.5vmin #222;">Contactez-nous</a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                           
+                        </div>
+                        <div class="blockMob">
+                            <div class="h-100 affiche">
+                            <div class="text-end">
+                                <span class="plus" style="color: rgb(0, 0, 0);font-size: 15vmin;margin-right: 6%;margin-top:4%;display: inline-block;line-height: 80%;">+</span>
+                            </div>
+                            
+                                
+                           
+                                
+                           
+                            <div class="propriete flex-column justify-content-center align-items-center h-75">
+                                <img class="w-50" src="./assets/img/creation-de-sites-web_4.png">
+                                <span style="margin-top: 8%;font-size: 8vmin;font-weight: bold;">Graphisme</span>
+                            </div>
+
+                            <div class=" flex-column align-items-center h-100 affichProp">
+                                    
+                                <img style="width: 30vmin;" src="./assets/img/creation-de-sites-web_4.png">
+                                <div style="margin-top:15vmin;padding: 0 7vmin;">
+                                    <h3>Graphisme</h3>
+                                    <div class="bg-dark" style="margin-top: 5vmin;height: 1vmin;width: 25vmin;" ></div>
+                                    <p style="margin: 5vmin 0 8vmin 0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo, mollitia autem! Sint doloremque similique impedit vel asperiores corrupti sunt, neque, illo nam ratione omnis odio sit delectus totam facere perferendis.
+                                    Voluptate facilis autem mollitia quasi cum accusamus. Tempora, nostrum reiciendis.</p>
+                                    <a style="padding: 2vmin 4vmin;background-color: white;font-weight: bold;border-radius: 2vmin;box-shadow: 1vmin 1vmin 0.5vmin #222;">Contactez-nous</a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        </div>
+                        <div class="blockMob">
+                            <div class="h-100 affiche">
+                            <div class="text-end">
+                                <span class="plus" style="color: rgb(0, 0, 0);font-size: 15vmin;margin-right: 6%;margin-top:4%;display: inline-block;line-height: 80%;">+</span>
+                            </div>
+                            
+                                
+                           
+                                
+                           
+                            <div class="propriete flex-column justify-content-center align-items-center h-75">
+                                <img class="w-50" src="./assets/img/creation-de-sites-web_4.png">
+                                <span style="margin-top: 8%;font-size: 8vmin;font-weight: bold;">Graphisme</span>
+                            </div>
+
+                            <div class="affichProp flex-column align-items-center h-100  ">
+                                    
+                                <img style="width: 30vmin;" src="./assets/img/creation-de-sites-web_4.png">
+                                <div style="margin-top:15vmin;padding: 0 7vmin;">
+                                    <h3>Graphisme</h3>
+                                    <div class="bg-dark" style="margin-top: 5vmin;height: 1vmin;width: 25vmin;" ></div>
+                                    <p style="margin: 5vmin 0 8vmin 0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo, mollitia autem! Sint doloremque similique impedit vel asperiores corrupti sunt, neque, illo nam ratione omnis odio sit delectus totam facere perferendis.
+                                    Voluptate facilis autem mollitia quasi cum accusamus. Tempora, nostrum reiciendis.</p>
+                                    <a style="padding: 2vmin 4vmin;background-color: white;font-weight: bold;border-radius: 2vmin;box-shadow: 1vmin 1vmin 0.5vmin #222;">Contactez-nous</a>
+                                </div>
+                                
+                            </div>
+
+                           
+                            </div>
+                        </div>
+                  
+                       
+                       
+                    </div>
+                </div>
+                
+                <div  class="d-flex w-100 justify-content-center">
+                    <div class="rond" style="width: 5vmin;height: 5vmin;background-color: white;border-radius: 100%;margin-right: 5%;"></div>
+                    <div class="rond" style="width: 5vmin;height: 5vmin;background-color: white;border-radius: 100%;margin-right: 5%;"></div>
+                    <div class="rond" style="width: 5vmin;height: 5vmin;background-color: white;border-radius: 100%;margin-right: 5%;"></div>
+                    <div class="rond" style="width: 5vmin;height: 5vmin;background-color: white;border-radius: 100%;margin-right: 5%;"></div>
+                    <div class="rond" style="width: 5vmin;height: 5vmin;background-color: white;border-radius: 100%;"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+
+    <aside>
+        <div id="divId"></div>
+        <div id="divId" class="d-flex justify-content-center align-items-center "><span class="nomPage"></span></div>
+        <div id="divId"></div>
+    </aside>
+
+    <aside>
+        <div class="divIdDepart"></div>
+        <div  class="divIdDepart d-flex justify-content-center align-items-center"><span class="nom"></span></div>
+        <div class="divIdDepart"></div>
+    </aside>
+    
+   
+    <script>
+
+let vh = window.innerHeight * 0.01;
+// Then we set the value in the --vh custom property to the root of the document
+document.documentElement.style.setProperty('--vh', `${vh}px`);
+
+// We listen to the resize event
+window.addEventListener('resize', () => {
+  // We execute the same script as before
+  let vh = window.innerHeight * 0.01;
+  document.documentElement.style.setProperty('--vh', `${vh}px`);
+});
+
+
+var tou = document.querySelector("#teste")
+var boxMobiles = document.querySelectorAll(".blockMob")
+var boxTailleMobile = boxMobiles[0].clientWidth+40
+var startX 
+var moveX
+var endX = 0
+var direction
+var i = 0
+var k = false
+
+var ronds = document.querySelectorAll(".rond")
+ronds[0].style.backgroundColor="blue"
+
+tou.addEventListener('touchstart',(e) => {
+ startX = e.touches[0].clientX
+});
+
+
+tou.addEventListener('touchend',(e) => {
+   
+console.log(direction)
+    if(k){
+        if( direction > 40){
+
+if( i == 4){
+
+}else{
+i++
+
+}
+
+
+tou.style.transform = "translateX("+-(boxMobiles[0].clientWidth+40)* i+"px)"
+
+} 
+
+else if(direction < -40){
+
+console.log(i)
+
+if( i == 4){
+i = 3
+
+}else if(i == 0){
+
+}else{
+i--
+
+}
+
+
+tou.style.transform = "translateX("+-(boxMobiles[0].clientWidth+40)* i+"px)"
+}
+
+endX = -parseInt(tou.style.transform.replace("translateX(",""))
+
+
+ronds.forEach(element => {
+element.style.backgroundColor ="white"
+
+ronds[i].style.backgroundColor="blue"
+});
+
+k = false
+
+
+}
+    
+
+
+
+    
+})
+
+
+
+
+
+
+tou.ontouchmove = function(e){
+    e.preventDefault()
+    moveX = e.touches[0].clientX
+
+    direction = startX - moveX
+    
+    
+    tou.style.transition = "transform 0.2s linear"
+    tou.style.transform = "translateX("+-(endX + direction*2)+"px)"
+
+   
+
+    k = true
+    
+       
+    
+  
+}
+
+
+
+
+
+
+var plus = document.querySelectorAll(".plus")
+var teste = document.querySelector("#teste")
+var autre = document.querySelector(".autre")
+var h = 0
+plus.forEach(element => {
+    element.onclick = function(){
+
+        var contenu = this.parentElement.parentElement.parentElement
+
+    
+
+  
+
+  
+      if(h%2 == 0){
+       
+      
+//tou.ontouchmove = null
+    
+contenu.classList.toggle('contenu')
+
+teste.classList.toggle('parentContenu')
+teste.classList.remove('contenuMarge')
+this.parentElement.nextElementSibling.style.display="none"
+this.parentElement.nextElementSibling.nextElementSibling.style.display="flex"
+
+/*console.log(contenu)
+contenu.style.position="static"
+
+
+contenu.style.zIndex="4"
+
+contenu.style.height ="100vh"
+contenu.style.width ="101vw"
+contenu.style.borderRadius="0"
+
+teste.style.margin = "0"
+teste.style.transition ="margin 0.1s linear"
+
+contenu.style.transition = "all 0.1s linear"
+
+console.log(contenu)*/
+
+
+}else{
+    contenu.style.backgroundColor="green"
+    contenu.classList.remove('contenu')
+teste.classList.remove('parentContenu')
+teste.classList.toggle('contenuMarge')
+this.parentElement.nextElementSibling.style.display="flex"
+this.parentElement.nextElementSibling.nextElementSibling.style.display="none"
+
+setTimeout(() => {
+    teste.classList.remove('contenuMarge')
+}, 400);
+
+}
+
+h++
+
+    }
+});
+
+
+
+/*var tou = document.querySelector("#teste")
+var start
+var boxMobiles = document.querySelectorAll(".blockMob")
+var boxTailleMobile = boxMobiles[0].clientWidth+40
+var ronds = document.querySelectorAll(".rond")
+var startY
+var right = 1
+var left= -1
+var move
+var moveY
+ronds[0].style.backgroundColor="blue"
+
+
+
+
+
+tou.addEventListener('touchstart',(e) => {
+ start = e.touches[0].clientX
+
+ startY= e.touches[0].clientY
+
+
+});
+
+
+
+
+
+
+
+
+
+  tou.ontouchmove = function(e){
+   
+ //endx = tou.style.transform.replace("translateX(","")
+   
+move = e.touches[0].clientX
+// moveY = e.touches[0].clientY
+
+e.preventDefault()
+
+
+
+
+
+
+if(move > start ){
+    
+
+    
+    tou.style.transition = "transform 0.3s linear"
+    tou.style.transform = "translateX("+-boxTailleMobile*Math.max(left,0)+"px)"
+
+
+
+
+    
+}
+else if(move < start && right < 5 ){
+    
+   
+   
+    tou.style.transition = "transform 0.3s linear"
+    tou.style.transform = "translateX("+-boxTailleMobile*Math.min(right,5)+"px)"
+    
+  
+}
+
+
+
+
+
+
+
+};
+
+tou.addEventListener('transitionend',(e) => {
+   
+    ronds.forEach(element => {
+    element.style.backgroundColor ="white"
+});
+   if(move < start){
+     
+   
+     if(right < 4 ){
+         
+        
+         right++
+             left++
+             
+     }else{
+         
+        left = 3
+         right = 5
+         tou.style.transform = "translateX("+-boxTailleMobile*4+"px)"
+     }
+   
+    
+   }
+   
+   else if(move > start){
+    
+  if (left > 0){
+      
+         right--
+         left--
+    }else{
+       left = -1
+       right = 1
+        
+    }
+   }
+   ronds[left+1].style.backgroundColor="blue"
+   
+   })*/
+
+
+
+    </script>
+    <script type="text/javascript" src="./assets/js/animationPrestation.js"></script>
+
+    
+</body>
+</html>

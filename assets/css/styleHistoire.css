@@ -1,0 +1,1042 @@
+@font-face {
+  font-family: montSerrat;
+  src: url("../font/Montserrat-Regular.ttf");
+  
+} 
+
+
+
+*{
+  font-family: montSerrat;
+}
+
+@media (max-width: 595.99px) {
+.logoAccueil{
+  font-size: 10vmin!important;
+}
+
+  .reseauAccueil{
+  font-size: 7vmin!important;
+
+}
+
+.divAccueil{
+  box-shadow: inset 0 -65vmin 40vmin -50vmin #000000!important;
+}
+
+.unitTel,.unitTele{
+  margin-top: 5vmin;
+}
+
+.unitTele{
+  margin-bottom: 2vmin;
+}
+
+
+.digitContact{
+ font-size: 6vmin!important
+}
+
+.digitAdresse{
+  height: 7vmin!important;
+  margin-bottom: 0.4vmin!important;
+}
+
+.lienBurger,.lienAccueil{
+  font-size: 8vmin!important;
+}
+
+.digits{
+  height: 8vmin!important;
+}
+
+.childBurger{
+  margin-top: 10vmin!important;
+}
+
+
+.logoAccueil{
+  font-size: 6vmin!important;
+  position: initial!important;
+}
+
+.boxAccueil{
+  padding: 7vmin!important;
+  position: fixed;
+  background-color: white;
+  width: 100%!important;
+  z-index: 1;
+  top:-0.1%!important
+
+}
+
+.boxLogo{
+height: initial!important;
+width: initial!important;
+}
+
+.burger span {
+  width: 10vmin!important;
+  height: 1vmin!important;
+  background-color: rgb(0, 0, 0);
+  border-radius: 15vmin;
+
+  
+}
+
+.burger span:nth-child(2) {
+  margin: 1.5vmin 0 !important;
+}
+
+.burger {
+position: fixed!important;
+right:8%!important;
+z-index:3!important
+
+}
+
+.welcome,.go-away{
+  font-size:6.5vmin!important;
+}
+
+.containere{
+  width: 80%!important;
+}
+
+.firstBox{
+  flex-direction: column!important;
+  width: 100%!important;
+  padding: 0 12vmin!important;
+  margin-top: 20vmin;
+}
+
+.responBox{
+  flex-direction: column-reverse!important;
+  margin-top: 10vmin!important;
+}
+
+.imgHistoire,.secondEnfant{
+width: 100%!important;
+}
+
+.titleBox{
+  font-size: 7vmin!important;
+  margin-top: 10vmin;
+}
+
+.secondEnfant{
+  font-size: 3.5vmin!important;
+}
+
+.choc{
+  font-size: 7vmin!important;
+}
+
+.imgProfil{
+  width: 75%!important;
+}
+
+.prenom{
+  margin:0!important
+}
+
+.boxPrenom{
+  margin: 8vmin 0!important;
+}
+
+.boxDescription{
+  padding: 0 10vmin!important
+}
+
+.description{
+  font-size: 4.5vmin!important;
+}
+
+.boxProfil2{
+  flex-direction: column-reverse!important;
+}
+
+}
+
+
+@media (min-width: 596px) and (max-width: 991.98px) {
+
+  .politique{
+    font-size:clamp(10px,1.5vmin,1.5vmin)!important;
+    text-align: center;
+    margin-top: 3vmin;
+    
+  }
+
+  .politique > div:nth-child(2){
+    height: clamp(1px,0.2vmin,0.2vmin)!important;
+    width: 40%!important;
+    background-color: black;
+    margin: 1vmin 0!important;
+  }
+  
+
+  .logoAccueil{
+    font-size: 4.5vmin!important;
+    position: initial!important;
+  }
+
+  .burger span {
+    width: 5vmin!important;
+    height: 0.5vmin!important;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15vmin;
+  }
+  .digitContact{
+    font-size: clamp(15px,3vmin,3vmin)!important
+   }
+ 
+ 
+  
+   .digitAdresse{
+     height: clamp(15px,3vmin,3vmin)!important;
+     overflow: hidden;
+   }
+
+   .reseauAccueil{
+    font-size: clamp(18px,3.5vmin,3.5vmin)!important;
+ 
+  }
+
+
+
+  .childBurger{
+    margin-top: 5vmin!important;
+  }
+
+ 
+  .burger {
+    position: fixed!important;
+    right:clamp(10px,3vmin,3vmin)!important;
+    z-index:3!important
+  }
+
+  .boxAccueil{
+    padding: 4vmin 4vmin!important;
+    position: fixed;
+  background-color: white;
+  width: 100%!important;
+  z-index: 1;
+  top:-0.1%!important
+  }
+
+  .burger span {
+    width: 8vmin!important;
+    height: 0.8vmin!important;
+    background-color: rgb(0, 0, 0)!important;
+    border-radius: 15vmin!important;
+  }  
+
+  .burger{
+    right: 5%!important;
+    
+  }
+
+  .burger span:nth-child(2) {
+    margin: 1.1vmin 0!important
+  }
+
+  .boxLogo{
+    height: initial!important;
+    width: initial!important;
+    }
+    
+  .containere{
+    width: 80%!important;
+  }
+
+  .welcome,.go-away{
+    font-size: clamp(30px,6.5vmin,6.5vmin)!important;
+  }
+
+  .firstBox{
+    flex-direction: column!important;
+    padding:0!important
+  }
+
+  .imgHistoire{
+    width: clamp(300px,60vmin,60vmin)!important;
+    margin-top: 10vmin!important;
+  }
+
+  .titleBox{
+    font-size: clamp(30px,5vmin,5vmin)!important;
+  }
+
+  .paraBox{
+     font-size: clamp(20px,1vmin,1vmin)!important;
+  }
+
+  .secondEnfant{
+    width: 100%!important;
+    padding: 0 11vmin;
+    margin-top: 8vmin!important;
+  }
+
+  .lineMobile{
+    height: 35vmin!important;
+  }
+
+  .responBox{
+    flex-direction: column-reverse!important;
+  }
+
+  .imgProfil{
+    width: clamp(300px,60vmin,60vmin)!important;
+  }
+
+  .boxProfil2{
+    flex-direction: column-reverse!important;
+  }
+
+  .boxPrenom{
+    margin-top: 8vmin;
+  }
+
+  .boxDescription{
+  padding:0 11vmin!important;
+  margin-top: 5vmin!important;
+  }
+
+  .choc{
+    font-size: clamp(30px,4vmin,4vmin)!important;
+  }
+
+  .prenom{
+    font-size: clamp(30px,6vmin,6vmin)!important ;
+  }
+
+  .description{
+    font-size: clamp(20px,4vmin,4vmin)!important;
+  }
+
+  
+
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .containere{
+    width: 80%!important;
+  }
+
+  .firstBox{
+    padding:0 10vmin!important;
+    margin-top:15vmin!important
+  }
+
+  .lineDesktop{
+    top:7%!important
+  }
+
+
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.politique{
+  font-size: 3vmin;
+  text-align: center;
+  margin-top: 3vmin;
+  margin-bottom: 1.5vmin;
+}
+
+.politique > div:nth-child(2){
+  height: 0.4vmin;
+  width: 50%;
+  background-color: black;
+  margin: 1.5vmin 0;
+}
+
+.containere {
+  border-top: 2px solid #101010;
+  border-bottom: 2px solid #101010;
+  width: 55%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  animation-name: box;
+  animation-duration: 3s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+  margin-bottom: 15vmin;
+}
+
+.welcome {
+  
+  font-size: 9vmin;
+  line-height: 70px;
+  animation-name: wel;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  font-weight: bold;
+
+}
+
+.go-away {
+  
+  font-size: 9vmin;
+  line-height: 80px;
+  position: absolute;
+  animation-name: go;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  font-weight: bold;
+  
+}
+
+@keyframes box {
+  0% {
+    height: 0px;
+    width: 0%;
+  }
+  10% {
+    height: 0px;
+    width: 43%;
+  }
+  20% {
+    height: 120px;
+  }
+  80% {
+    height: 120px;
+  }
+  90% {
+    height: 0px;
+  }
+  100% {
+    height: 120px;
+  }
+}
+@keyframes wel {
+  0% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  91% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes go {
+  0% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 0;
+  }
+  91% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+a{
+    text-decoration: none!important;
+    color: black!important;
+}
+
+body{
+    background-color: black!important;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.row{
+  margin: 0!important;
+  
+}
+
+.row > * {
+  padding:0!important
+}
+
+header{
+    background-color: white;
+}
+
+
+#burgerSectionDroite{
+    background-image: url("../img/toa-heftiba-FV3GConVSss-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+    animation: loading-slide 10s linear infinite alternate;
+   }
+
+   #burgerSectionDroite > div:nth-child(1){
+    mix-blend-mode: multiply; 
+    background:rgb(0, 0, 0);
+    height: 60%;
+   }
+
+   #burgerSectionDroite > div:nth-child(2) > p{
+    font-size: 2.5vmin;
+    padding:0 3vmin
+   }
+
+   #burgerSectionDroite > div:nth-child(2) > div:nth-child(2){
+    height: 0.2vmin;
+    width: 15vmin;
+    margin: 2vmin 0;
+
+   }
+
+   #burgerSectionDroite > div:nth-child(2) > div:nth-child(3){
+    font-size: 1.5vmin;
+   }
+
+   #burgerSectionDroite > div:nth-child(2){
+    height: 40%;
+    background-color: black;
+   }
+  
+   .titreSectionDroite{
+     font-size: 10vmin;
+   }
+  
+   #burgerSectionGauche,#burgerSectionDroite{
+    transform: translateY(-100%);
+    transition: all 0.5s ease-out;
+    transition-delay: 0.5s;
+  
+  }
+
+  #burgerSectionGauche{
+    padding:0 2vmin!important;
+  }
+  
+   
+   #burgerSectionGauche.open,#burgerSectionDroite.open{
+     transform: translateY(0)!important;
+     transition: all 0.5s ease-out;
+   }
+  
+   @keyframes loading-slide {
+    from {
+      background-position: left;
+    }
+    to {
+      background-position: right;
+    }
+  }
+  #menuBurgerDesktop{
+    height: calc(var(--vh, 1vh) * 100);
+    top:0;
+    width: 100%;
+    z-index: -1;
+    
+  }
+  
+  .childBurger{
+    margin: 3vmin 0 3vmin 0;
+  }
+  
+  .cd__digit {
+      width: 1ch;
+      z-index: -1;
+    position: relative;
+  }
+  
+  .digits{
+    display: flex;
+    justify-content: center;
+    height: 6vmin;
+    font-weight: bold;
+    overflow: hidden;
+    margin-bottom: 1.5vmin;
+    z-index: 3;
+  }
+  .digitAdresse{
+    height:3.2vmin;
+  
+  }
+  
+  .reseauAccueil{
+    transition: transform 0.5s ease-out;
+    font-size:3.5vmin;
+  }
+  
+  .digitsReseau{
+    display: flex;
+    justify-content: center;
+    height: 7vmin;
+    
+    font-weight: bold;
+    overflow: hidden;
+    z-index: 1;
+  
+  }
+  
+  .arrowBurger{
+    transform: translateX(-4.5vmin);
+    letter-spacing: 2vmin;
+    transition: transform 0.3s linear;
+    
+    opacity: 0;
+    transition: opacity 0.5s linear;
+  }
+  
+  .ancreBurger, .lien{
+    cursor: pointer;
+  }
+  
+  
+  .ancreBurger:hover .arrowBurger{
+    opacity: 1;
+    transform: translateX(0px);
+    transition: transform 0.3s linear;
+    transition: opacity 0.5s linear;
+  }
+  
+  
+  .ancreBurger{
+    transform: translateX(-7vmin);
+    transition: transform 0.3s linear;
+   
+  }
+  
+  .ancreBurger:hover{
+    transform: translateX(2vmin);
+    transition: all 0.3s linear;
+  }
+  
+  
+  .unit{
+    font-size: 6vmin;
+      line-height: 4;
+      width: 3ch;
+    transition: all 0.5s ease-in;
+  }
+  
+  .unit.apparition{
+    line-height: 1;
+    transition: line-height 0.5s ease-in;
+    transition-delay: 0.5s;
+  }
+  
+  .burger {
+  
+    box-shadow: none;
+    border: none;
+   
+    cursor: pointer;
+    
+    z-index: 3!important;
+    height: 6vmin;
+    width: 7vmin;
+    padding: 0 4vmin;
+    position: fixed;
+    right:2%
+   
+  }
+  
+  .burger span {
+    width: 5vmin;
+    height: 0.5vmin;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15vmin;
+   
+  }
+  
+  .burger span:nth-child(1) {
+    top: 0;
+    transform: translateX(0%) translateY(0);
+    transition: top 0.3s cubic-bezier(0.21, 0.83, 0.26, 0.87) 0.3s, transform 0.3s cubic-bezier(0.21, 0.83, 0.26, 0.87);
+  }
+  
+  .burger span:nth-child(2) {
+    top: 1.2vmin;
+    opacity: 1;
+    transform: translateX(0%);
+    margin:0.8vmin 0
+  }
+  
+  .burger span:last-child {
+    top: 2.4vmin;
+    transform: translateX(0%) translateY(0);
+    transition: top 0.3s cubic-bezier(0.21, 0.83, 0.26, 0.87) 0.3s, transform 0.3s cubic-bezier(0.21, 0.83, 0.26, 0.87);
+  }
+  
+  .burger.open span:nth-child(1) {
+    top: 50%;
+    transform: translateX(0%) translateY(250%) rotate(45deg);
+    transition: top 0.3s cubic-bezier(0.21, 0.83, 0.26, 0.87), transform 0.3s cubic-bezier(0.21, 0.83, 0.26, 0.87) 0.3s;
+  }
+  
+  .burger.open span:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .burger.open span:last-child {
+    top: 50%;
+    transform: translateX(0%) translateY(-250%) rotate(-45deg);
+    transition: bottom 0.3s cubic-bezier(0.21, 0.83, 0.26, 0.87), transform 0.3s cubic-bezier(0.21, 0.83, 0.26, 0.87) 0.3s;
+  }
+  
+  .digitContact{
+    font-size: 3.2vmin;
+  }
+
+
+.divChargement0{
+  animation: chargementDiv 0.4s linear forwards;
+ 
+}
+
+.divChargement1{
+  animation: chargementDiv 0.4s linear forwards;
+  animation-delay: 0.4s;
+}
+
+.divChargement2{
+  animation: chargementDiv 0.4s linear forwards;
+  animation-delay: 0.8s;
+}
+
+@keyframes chargementDiv {
+  from{
+    width: 100%;
+  }
+
+  to{
+    width: 0;
+    display: none!important;
+  }
+}
+
+.divChargementDepart0{
+  animation: chargementDive 0.3s linear forwards;
+}
+
+.divChargementDepart1{
+  animation: chargementDive 0.3s linear forwards;
+  animation-delay: 0.2s;
+}
+
+.divChargementDepart2{
+  animation: chargementDive 0.3s linear forwards;
+  animation-delay: 0.5s;
+}
+@keyframes chargementDive {
+  from{
+    width: 0;
+  }
+
+  to{
+    width: 100%;
+  }
+}
+
+
+
+  .boxAccueil{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 2vmin 5vmin;
+     
+       
+        position: fixed;
+        background-color: white;
+        width: 100%!important;
+        z-index: 1;
+        top:-0.1%!important
+      
+      
+  }
+
+  .logoAccueil{
+    font-size: 3vmin;
+    font-weight: bold;
+    color: black;
+    /*transform: scale(-1,1);*/
+    transition: transform 0.5s linear;
+    position: absolute;
+  }
+
+.boxLogo{
+ cursor: pointer;
+  width: 14vmin;
+  height: 4.5vmin;
+ 
+}
+
+.boxLogo:hover .logoAccueil{
+  transform: scale(-1,1);
+  transition: transform 0.5s linear;
+  color: black;
+  position: absolute;
+}
+
+  .divAccueil{
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(255, 255, 255);
+      /*box-shadow: inset 0px 15px 10px -15px #111; */
+     box-shadow: inset 0 -85vmin 50vmin -60vmin #000000;
+  }
+
+  .titrePrincipale{
+      font-size: 9vmin;
+      margin-bottom: 15vmin;
+      font-weight: bold;
+  }
+
+  .firstBox{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: white;
+      padding: 17vmin 25vmin;
+      
+  }
+
+  .firstBox:nth-child(1) > img{
+    width: 40%;
+  }
+
+  .secondEnfant{
+      width: 40%;
+      font-size: 2.5vmin;
+      overflow: hidden;
+  }
+
+.titleBox{
+  font-size: 5vmin;
+  margin-bottom: 3vmin;
+}
+
+.blockBox{
+  background-color: black;
+}
+
+.blockBox > div:nth-child(2),.blockBox > div:nth-child(4) {
+  margin-top: 7vmin;
+}
+
+.blockBox > div:nth-child(2) > img{
+ 
+  transform: rotateX(180deg);
+}
+
+.lineMobile{
+  height: 52vmin;
+}
+
+.lineDesktop{
+  top:23%;
+  left:48.5%;
+  height: 95vh;
+}
+
+.choc{
+  font-size: 4vmin;
+  color: white;
+  margin-top: 2vmin;
+}
+
+.boxEquipe{
+  margin: 15vmin 0;
+}
+
+.boxProfil2{
+  margin-top: 20vmin!important;
+}
+
+.boxPrenom{
+  margin-bottom: 3vmin;
+}
+
+.boxDescription > p{
+  margin-top: 3vmin;
+}
+
+.imgProfil{
+  width: 100%;
+}
+
+.description{
+  font-size: 4vmin;
+}
+  #Calque_1{
+    width: 38%;
+  }
+
+  .cls-1{fill:none;
+    stroke:#fff;
+    stroke-miterlimit:10;
+    stroke-width:2px;}
+
+  .cls-2{fill:#fff;}
+  
+  .prenom{
+    font-size: 6vmin;
+    background-color: white;
+    color: black;padding:0 4vmin;
+    font-weight: bold;
+    border-radius: 1vmin;
+    position: relative;
+    margin-left: 8vmin;
+
+  }
+
+  .nom{
+    font-size: 10vmin;
+    color: white;
+    font-weight: bold;
+  }
+
+  .prenom::before{
+    position: absolute;
+    top: 10%;
+    left: 3%;
+    border: 2px solid white;
+    border-radius: 1vmin;
+    width: 100%;
+    height: 100%;
+   
+    content: "";
+  }
+
+  .imgHistoire{
+    opacity: 0;
+  }
+
+  .animationText1{
+    transform: translateX(110%);
+  }
+
+  .animationText2{
+    transform: translateX(-110%);
+  }
+
+  .slideImgUp{
+    animation: slideUp 1s linear forwards;
+  }
+
+  .paragraphe1{
+    animation: apparitionText 1s linear forwards
+  }
+
+  .paragraphe2{
+    animation: apparitionText2 1s linear forwards
+  }
+
+  .slideRight{
+    animation: slideRight 1s linear forwards;
+  }
+
+  @keyframes slideUp {
+    from{
+      opacity: 0;
+      transform:translateY(35%)
+    }
+    to{
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideRight {
+    from{
+      opacity: 0;
+      transform:translateY(35%)
+    }
+    to{
+      opacity: 1;
+    }
+  }
+
+  @keyframes apparitionText {
+    from{
+      transform: translateX(110%);
+    }
+
+    to{
+      transform: translateX(0%);
+    }
+  }
+  @keyframes apparitionText2 {
+    from{
+      transform: translateX(-110%);
+    }
+
+    to{
+      transform: translateX(0%);
+    }
+  }
+
+
+  #divId{
+    width: 100%; 
+    height: 33.35vh; 
+    background-color: black; 
+    position:absolute; 
+    z-index: 4;
+    overflow: hidden;
+   
+  }
+  
+  .divIdDepart{
+    width: 0%;
+     height: 33.35vh;
+      background-color:black; 
+       position:fixed; 
+        z-index: 4;
+  }
+  
+  .nomPage{
+    font-size: 10vmin;
+    color: white;
+   font-weight: bold;
+  
+  }
+  
+  aside > div:nth-child(1){
+    top: 0;
+  }
+  
+  aside > div:nth-child(2){
+    top: 33.35%;
+  }
+  
+  aside > div:nth-child(3){
+    top: 66.70%;
+  }
+
+  html {
+    height: -webkit-fill-available!important;
+  }
+  
+  body {
+    padding: 0!important;
+    margin: 0!important;
+    min-height: 100vh!important;
+  }
+  
+  /* Avoid Chrome to see Safari hack */
+  @supports (-webkit-touch-callout: none) {
+    body {
+      /* The hack for Safari */
+      min-height: -webkit-fill-available!important;
+    }
+  }
